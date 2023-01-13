@@ -3,6 +3,9 @@
 
 LiveCall a Chat Plugin for GLPI
 
+This plugin was inspired on this work https://github.com/l33one/livechat.
+It is not a fork. Is a new complete new piece.
+
 # Install
 
 ```
@@ -12,7 +15,7 @@ LiveCall a Chat Plugin for GLPI
 -Activate
 ```
 # Usage
-You can add some extra features to your plugin like this
+You can add some extra features to your plugin like this:
 ```
 RocketChat( function() {
     this.registerGuest( {
@@ -25,7 +28,7 @@ RocketChat( function() {
 
 ## Suports
 
-RocketChat LiveHelperChat.
+Tested with RocketChat and LiveHelperChat.
 
 ## Disclaimer
 
