@@ -35,7 +35,9 @@
                </en>
             </tags>
             <screenshots>
-               <screenshot>http://link/to/your/screenshot</screenshot>
-               <screenshot>http://link/to/your/screenshot</screenshot>
+               <screenshot>https://github.com/r4phf43l/livecall/blob/main/screenshots/first.jpg</screenshot>
+               <screenshot>https://github.com/r4phf43l/livecall/blob/main/screenshots/second.jpg</screenshot>
+               <screenshot>https://github.com/r4phf43l/livecall/blob/main/screenshots/third.jpg</screenshot>
+               <screenshot>https://github.com/r4phf43l/livecall/blob/main/screenshots/fourth.jpg</screenshot>
             </screenshots>
          </root>
