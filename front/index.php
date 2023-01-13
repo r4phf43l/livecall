@@ -56,7 +56,7 @@ if (Config::canView()) {
     Html::showCheckBox(['name' => 'enabled', 'checked' => $object->fields['enabled']]);
     echo '<br><br>Script';
     Html::textarea(['name' => 'javascript', 'enable_richtext' => false, 'value' => $object->fields['javascript']]);
-    echo "Cookie function getCookie().<br>Cookies anchors: livecall-cookie-user_id, livecall-cookie-firstname, livecall-cookie-profile, livecall-cookie-name, livecall-cookie-location, livecall-cookie-email<br>";
+    echo "Cookie function livecall().<br>Tags: name, firstname, profile, location, email.<br>";
     echo '<br>Available on Profile<br>';
     $query = ['FROM'  => 'glpi_profiles'];
     $result = $DB->request($query);
