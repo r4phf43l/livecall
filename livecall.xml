@@ -2,7 +2,7 @@
    <name>livecall</name>
    <key>livecall</key>
    <state>stable</state>
-   <logo>https://github.com/r4phf43l/livecall/blob/main/icon.png</logo>
+   <logo>https://raw.githubusercontent.com/r4phf43l/livecall/main/icon.png</logo>
    <description>
       <short>
          <en>LiveCall a Chat Plugin for GLPI</en>
@@ -14,7 +14,7 @@
    <homepage>https://rafaantonio.com.br</homepage>
    <download>https://github.com/r4phf43l/livecall</download>
    <issues>https://github.com/r4phf43l/livecall/issues</issues>
-   <readme>https://github.com/r4phf43l/livecall#readme</readme>
+   <readme>https://raw.githubusercontent.com/r4phf43l/livecall/main/README.md</readme>
    <authors>
       <author>Rafael Antonio</author>
    </authors>
@@ -35,9 +35,9 @@
       </en>
    </tags>
    <screenshots>
-      <screenshot>https://github.com/r4phf43l/livecall/blob/main/screenshots/first.jpg</screenshot>
-      <screenshot>https://github.com/r4phf43l/livecall/blob/main/screenshots/second.jpg</screenshot>
-      <screenshot>https://github.com/r4phf43l/livecall/blob/main/screenshots/third.jpg</screenshot>
-      <screenshot>https://github.com/r4phf43l/livecall/blob/main/screenshots/fourth.jpg</screenshot>
+      <screenshot>https://raw.githubusercontent.com/r4phf43l/livecall/main/screenshots/first.jpg</screenshot>
+      <screenshot>https://raw.githubusercontent.com/r4phf43l/livecall/main/screenshots/second.jpg</screenshot>
+      <screenshot>https://raw.githubusercontent.com/r4phf43l/livecall/main/screenshots/third.jpg</screenshot>
+      <screenshot>https://raw.githubusercontent.com/r4phf43l/livecall/main/screenshots/fourth.jpg</screenshot>
    </screenshots>
 </root>
