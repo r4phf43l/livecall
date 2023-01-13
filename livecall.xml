@@ -1,43 +1,43 @@
  <root>
-            <name>livecall</name>
-            <key>livecall</key>
-            <state>stable</state>
-            <logo>http://link/to/logo/with/dimensions/40px/40px</logo>
-            <description>
-               <short>
-                  <en>LiveCall a Chat Plugin for GLPI</en>
-               </short>
-               <long>
-                  <en>LiveCall a Chat Plugin for GLPI - Allow to add support to livechat apps to GLPI, allow auto-register on plugins that have support.</en>
-               </long>
-            </description>
-            <homepage>https://rafaantonio.com.br</homepage>
-            <download>https://github.com/r4phf43l/livecall</download>
-            <issues>https://github.com/r4phf43l/livecall/issues</issues>
-            <readme>https://github.com/r4phf43l/livecall#readme</readme>
-            <authors>
-               <author>Rafael Antonio</author>
-            </authors>
-            <versions>
-               <version>
-                  <num>1.0</num>
-                  <compatibility>~10.0.1</compatibility>
-                  <download_url>https://github.com/r4phf43l/livecall</download_url>
-               </version>
-            </versions>
-            <langs>
-              <lang>en_GB</lang>
-            </langs>
-            <license>MIT</license>
-            <tags>
-               <en>
-                  <tag>chat</tag>
-               </en>
-            </tags>
-            <screenshots>
-               <screenshot>https://github.com/r4phf43l/livecall/blob/main/screenshots/first.jpg</screenshot>
-               <screenshot>https://github.com/r4phf43l/livecall/blob/main/screenshots/second.jpg</screenshot>
-               <screenshot>https://github.com/r4phf43l/livecall/blob/main/screenshots/third.jpg</screenshot>
-               <screenshot>https://github.com/r4phf43l/livecall/blob/main/screenshots/fourth.jpg</screenshot>
-            </screenshots>
-         </root>
+   <name>livecall</name>
+   <key>livecall</key>
+   <state>stable</state>
+   <logo>http://link/to/logo/with/dimensions/40px/40px</logo>
+   <description>
+      <short>
+         <en>LiveCall a Chat Plugin for GLPI</en>
+      </short>
+      <long>
+         <en>LiveCall a Chat Plugin for GLPI - Allow to add support to livechat apps to GLPI, allow auto-register on plugins that have support.</en>
+      </long>
+   </description>
+   <homepage>https://rafaantonio.com.br</homepage>
+   <download>https://github.com/r4phf43l/livecall</download>
+   <issues>https://github.com/r4phf43l/livecall/issues</issues>
+   <readme>https://github.com/r4phf43l/livecall#readme</readme>
+   <authors>
+      <author>Rafael Antonio</author>
+   </authors>
+   <versions>
+      <version>
+         <num>1.0</num>
+         <compatibility>~10.0.1</compatibility>
+         <download_url>https://github.com/r4phf43l/livecall</download_url>
+      </version>
+   </versions>
+   <langs>
+     <lang>en_GB</lang>
+   </langs>
+   <license>MIT</license>
+   <tags>
+      <en>
+         <tag>chat</tag>
+      </en>
+   </tags>
+   <screenshots>
+      <screenshot>https://github.com/r4phf43l/livecall/blob/main/screenshots/first.jpg</screenshot>
+      <screenshot>https://github.com/r4phf43l/livecall/blob/main/screenshots/second.jpg</screenshot>
+      <screenshot>https://github.com/r4phf43l/livecall/blob/main/screenshots/third.jpg</screenshot>
+      <screenshot>https://github.com/r4phf43l/livecall/blob/main/screenshots/fourth.jpg</screenshot>
+   </screenshots>
+</root>
