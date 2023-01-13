@@ -2,7 +2,7 @@
    <name>livecall</name>
    <key>livecall</key>
    <state>stable</state>
-   <logo>http://link/to/logo/with/dimensions/40px/40px</logo>
+   <logo>https://github.com/r4phf43l/livecall/blob/main/icon.png</logo>
    <description>
       <short>
          <en>LiveCall a Chat Plugin for GLPI</en>
