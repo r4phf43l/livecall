@@ -49,7 +49,8 @@ if (isset($_POST['update'])) {
    $object->update($_POST);
    // Generate or update livecall.js
    $file = 'livecall.js';
-   $path = $_SERVER['DOCUMENT_ROOT'] . '/' . Plugin::getWebDir('livecall', false) . '/';
+   // $path = $_SERVER['DOCUMENT_ROOT'] . '/' . Plugin::getWebDir('livecall', false) . '/';
+   $path = GLPI_ROOT . '/' . Plugin::getWebDir('livecall', false) . '/';
    $string = $_POST['javascript'];
    $string = str_replace('\r', '', $string);
    $string = str_replace('\n', '', $string);
