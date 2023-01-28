@@ -79,7 +79,8 @@ function plugin_init_livecall() {
         $profile = in_array($_SESSION['glpiactiveprofile']['id'], $target);
         if ($data['enabled'] == 1 && $profile == true) {
           $file = 'livecall.js';
-          $path = $_SERVER['DOCUMENT_ROOT'] . '/' . Plugin::getWebDir('livecall', false) . '/';
+          // $path = $_SERVER['DOCUMENT_ROOT'] . '/' . Plugin::getWebDir('livecall', false) . '/';
+          $path = GLPI_ROOT . '/' . Plugin::getWebDir('livecall', false) . '/';
           if (!file_exists($path . $file)) {
             file_put_contents($path . $file, $data['javascript']);
           }
