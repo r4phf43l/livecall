@@ -76,7 +76,7 @@ function plugin_init_livecall() {
     if (count($result)) {
       foreach ($result as $data) {
         $target = explode(',', $data['target']);
-        $profile = in_array($_SESSION['glpiactiveprofile']['id'], $target);
+        $profile = isset($_SESSION['glpiactiveprofile']['id']) ? in_array($_SESSION['glpiactiveprofile']['id'], $target) : false;
         if ($data['enabled'] == 1 && $profile == true) {
           $file = 'livecall.js';
           // $path = $_SERVER['DOCUMENT_ROOT'] . '/' . Plugin::getWebDir('livecall', false) . '/';
